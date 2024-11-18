@@ -6,3 +6,26 @@ body{
 header{
     background-color: white;
 }
+
+/*NAV*/
+input[type="button"] {
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgb(199, 194, 194);
+}
+
+#color-buttom{
+    background-color:rgb(23, 180, 241);
+}
+
+nav{
+    margin: 20px auto 0 auto;
+    padding: 10px 20px;   
+}
+
+/*CONDIVISE*/
+.box{
+    width: 700px;
+    background-color: white;
+    border-radius: 3px;
+} 

@@ -48,6 +48,7 @@ section{
     display: inline-block;
 }
 
+/*FLAG*/
 .flag{
     display: inline-block;
     height: 24px;
@@ -59,10 +60,10 @@ section{
     border-radius: 100%;
     padding-left: 3px;
 }
-
 .flag::before{
     content: "\2713"; /*Flag*/
 }
+/**/
 
 .row p{
     display: inline-block;
@@ -72,6 +73,7 @@ section{
     padding: 10px 0;
 }
 
+/*CROSS*/
 .cross{
     display: inline-block;
     height: 24px;
@@ -83,8 +85,37 @@ section{
     border-radius: 100%;
     padding-left: 3px;
 }
-
 .cross::before{
     content: "\1F7AA"; /*Croce*/
 }
+/**/
 
+.tag{
+    padding: 5px 10px;
+    font-size: 12px;
+    color: white;
+    border-radius: 20px;
+}
+
+/*COLORED TAG*/
+.blu-tag{
+    background-color: rgb(23, 180, 241);
+}
+.blu-tag::before{
+    content: "Editorial";
+}
+
+.purple-tag{
+    background-color: rgb(182, 116, 243);
+}
+/* .violet-tag::before{
+    content: "Q1 Goals";
+} in questo caso non serve perchè questo tag è presente una sola volta, quindi allungherei solo il codice*/
+
+.green-tag{
+    background-color: rgb(67, 240, 145);
+}
+
+.orange-tag{
+    background-color: orange;
+}

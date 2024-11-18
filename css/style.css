@@ -29,3 +29,41 @@ nav{
     background-color: white;
     border-radius: 3px;
 } 
+
+/*MAIN*/
+main{
+    margin: 2px auto 0 auto; 
+    padding: 20px 50px 10px; 
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+.title span::before{
+    content: "\25BC"; /*Arrow bottom*/
+ }
+
+ .title h3{
+    display: inline-block;
+}
+
+.flag{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+
+    color: green;
+    font-size: 15px;
+    border: 2px solid green;
+    border-radius: 100%;
+    padding-left: 3px;
+}
+
+.flag::before{
+    content: "\2713"; /*Flag*/
+}
+
+.row p{
+    display: inline-block;
+}

@@ -67,3 +67,24 @@ section{
 .row p{
     display: inline-block;
 }
+
+.row{
+    padding: 10px 0;
+}
+
+.cross{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+
+    color: red;
+    font-size: 15px;
+    border: 2px solid red;
+    border-radius: 100%;
+    padding-left: 3px;
+}
+
+.cross::before{
+    content: "\1F7AA"; /*Croce*/
+}
+

@@ -1,3 +1,7 @@
+*{
+    font-family: poppins;
+  }
+
 body{
     background-color: rgba(240, 245, 245, 0.493);
 }
@@ -92,7 +96,7 @@ section{
 
 .tag{
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: 10px;
     color: white;
     border-radius: 20px;
 }

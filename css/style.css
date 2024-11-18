@@ -119,3 +119,11 @@ section{
 .orange-tag{
     background-color: orange;
 }
+
+.violet-tag{
+    background-color: rgb(250, 25, 150);
+}
+
+.ligthgreen-tag{
+    background-color: rgb(166, 250, 69);
+}
